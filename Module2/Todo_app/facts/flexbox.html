@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: orange;
+    }
+    .flexbox{
+    display: flex;
+     justify-content:center; 
+      align-items: center;  
+     flex-wrap: wrap;
+      flex-direction: column;
+
+    }
+    .flexbox-item{
+    border: 1px black solid;
+    width: 200px;
+    background-color: blue;
+    }
+    .fbi1{
+     min-height:100px ;
+     align-self: flex-end;
+    }
+    .fbi2{
+        min-height: 200px;
+    }
+    .fbi3{
+        min-height: 150px;
+    }
+
+</style>
+<body>
+    <div class="flexbox">
+        <div class="flexbox-item fbi1">this is item 1</div>
+        <div class="flexbox-item fbi2">this is item 2</div>
+        <div class="flexbox-item fbi3">this is item 3</div>
+    </div>
+</body>
+</html>

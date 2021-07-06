@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <div class="tools-container">
+       <div class="tools-content">
+           <div class="tool"><img src="./ICONS/pencil.png" alt=""></div>
+           <div class="tool"><img src="./ICONS/eraser.png" alt=""></div>
+           <div class="tool" id="undo"><img src="./ICONS/undo.png" alt=""></div>
+           <div class="tool" id ="redo"><img src="./ICONS/redo-arrow.png" alt=""></div>
+           <div class="tool" id="sticky"><img src="./ICONS/sticky-note.png" alt=""></div>
+           <div class="tool"><img src="./ICONS/image.png" alt=""></div>
+           <div class="tool"><img src="./ICONS/download.png" alt=""></div>
+       </div>
+   </div>
+
+   <div class="drawing-container">
+       <canvas id="canvas"></canvas>
+   </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="tools.js"></script>
+    <script src="sticky.js"></script>
+</body>
+</html>

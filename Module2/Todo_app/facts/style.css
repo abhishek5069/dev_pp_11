@@ -1,0 +1,16 @@
+.box2 {
+    background: #000fff;
+    height: 200px;
+    width: 200px;
+    border: 10px #e5fd44 solid;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.box {
+    background: yellow;
+    height: 200px;
+    width: 200px;
+    border: 10px black solid;
+    margin: 10px;
+    box-sizing: border-box;
+}
